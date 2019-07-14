@@ -98,6 +98,27 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
+##### Pilih Login #####
+def masuk():
+        os.system('reset')
+        print logo
+        print "\033[1;97m║--\033[1;91m> \033[1;92m1.\033[1;97m Login"
+        print "\033[1;97m║--\033[1;91m> \033[1;92m2.\033[1;97m Login using token"
+        print "\033[1;97m║--\033[1;91m> \033[1;91m0.\033[1;97m Exit"
+        print "\033[1;97m║"
+        msuk = raw_input("\033[1;97m╚═\033[1;91mD \033[1;97m")
+        if msuk =="":
+                print"\033[1;91m[!] Wrong input"
+                keluar()
+        elif msuk =="1":
+                login()
+        elif msuk =="2":
+                tokenz()
+        elif msuk =="0":
+                keluar()
+        else:
+                print"\033[1;91m[!] Wrong input"
+                keluar()
 
 ##### LOGIN #####
 #================#
@@ -2505,4 +2526,4 @@ def gaz(toket, enable = True):
 		keluar()
 
 if __name__ == '__main__':
-	login()
+	masuk()
