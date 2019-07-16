@@ -15,6 +15,7 @@ $ git clone https://github.com/Unikers71/dark
 
 $ cd dark
 
-$ chmod 777 dark.py
+$ pip2 install -r requirements.txt
 
 $ python2 dark.py
+
