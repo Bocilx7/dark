@@ -4,6 +4,7 @@ USERNAME: dulahtampanz
 PASSWORD: 2019
 
 CARA INSTALL
+
 $ pkg update
 
 $ pkg upgrade
