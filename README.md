@@ -1,4 +1,9 @@
-# dark
+DarkFB v1.8
+
+USERNAME: dulahtampanz
+PASSWORD: 2019
+
+CARA INSTALL
 $ pkg update
 
 $ pkg upgrade
